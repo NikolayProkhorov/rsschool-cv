@@ -15,7 +15,7 @@
 * HTML 
  
 ##  Education 
-University: Belarusian National Technical University 
+University: Belarusian National Technical University (Mechanics and Technology)
  
 ##  Language 
 English - A2
