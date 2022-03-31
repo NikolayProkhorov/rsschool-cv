@@ -8,7 +8,7 @@
 *  e-mail: prokhorov-94@mail.ru
 *  GitHub: NikolayProkhorov 
 *  Discord: precise4(NikolayProkhorov)#4660
- 
+*  Instagram: ko1lyan
 ##  Skills 
 * JS
 * Git/GitHub 
