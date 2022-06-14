@@ -2,20 +2,105 @@
 <html lang="en">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            <div class="logo_1">zoo</div>
-            <div class="logo_2">online</div>
+    <header>
+        <div class="photo"><img src="./images/1.jpg" alt="photo"></div>
+        <div class="name">
+            <h1>Nikolay <br> Prokhorov</h1>
         </div>
-        <div class="one_light">
-            <div class="elipse"></div>
-        </div>
-
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about_me" class="section about_me">
+            <h2>About me</h2>
+            <p>Hello, my name is Nikolai. I am a process engineer at an engine manufacturing plant and am currently taking a course on front-end RSS. He also began to study English. I started learning the front end at the end of February using YouTube videos. I watched videos of various bloggers about web development, website layout marathons, and training videos. Also, without learning about the course from RSS, I absorbed all the information recommended to get started before the course started. It interested me a lot. I love getting new knowledge and putting it into practice. If the topic is very interesting, I can work on it for hours. On this course, I want to get a lot of information, complete various complex tasks, gain experience, and in the future create a portfolio, try to work in a team. I try to spend as much free time as possible learning and I hope that this will help me in acquiring the skills necessary for a front-end developer. My next tasks in this area are learning HTML, CSS, Node.js and React. Then I want to work as a front-end developer. I really like the codewars quests, the rest of the quests are also interesting to me. Creating the first web page in the Animal Shelter task seemed difficult at first, but then the rest of the tasks become easier. My favorite task is the CSS slider. I spent a lot of time to understand this. Thanks to this assignment, I began to understand JavaScript a little. Lately I've been working on an online zoo project. For me, this is the first multi-page project. To create pages and write an add-on, I needed to find out additional information. It helps to have even more knowledge. So it's all about me.
+            </p>
+        </section>
+        <section id="skills" class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li> <img src="./images/html.png" alt="pic">
+                    <p>HTML</p>
+                </li>
+                <li> <img src="./images/css.png" alt="pic">
+                    <p>CSS</p>
+                </li>
+                <li> <img src="./images/javascript.jpg" alt="pic">
+                    <p>JS</p>
+                </li>
+                <li> <img src="./images/git.png" alt="pic">
+                    <p>Git</p>
+                </li>
+                <li> <img src="./images/figma.png" alt="pic">
+                    <p>Figma</p>
+                </li>
+            </ul>
+        </section>
+        <section id="code" class="section code">
+            <h2>Code</h2>
+            <pre>
+                const iconBurger = document.querySelector('.icon_burger');
+                const navConteiner = document.querySelector('.nav_conteiner');
+                if (iconBurger) {
+                    iconBurger.addEventListener("click", function() {
+                        document.body.classList.toggle('_lock');
+                     iconBurger.classList.toggle('_active');
+                     navConteiner.classList.toggle('_active');
+                    });
+                }
+            </pre>
+        </section>
+        <section id="education" class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li><img src="./images/BNTU.png" alt="pic">
+                    <p>Belarusian National Technical University (2011-2016) </p>
+                </li>
+                <li><img src="./images/rss.jpg" alt="pic">
+                    <p>The Rolling Scopes School (2022-u.n.)</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contacts" class="section contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>
+                    <p>Phone: +375 (25) 635-99-24</p>
+                </li>
+                <li>
+                    <p>e-mail: prokhorov-94@mail.ru</p>
+                </li>
+                <li>
+                    <p>GitHub: NikolayProkhorov</p>
+                </li>
+                <li>
+                    <p>Discord: precise4(NikolayProkhorov)#4660</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>2022</p>
+        <a href="https://github.com/NikolayProkhorov">
+            <p>My GitHub</p>
+        </a>
+        <a href="https://rs.school/js/"><img src="./images/rs_school_js.svg" alt="rss"></a>
+    </footer>
 </body>
 
 </html>
